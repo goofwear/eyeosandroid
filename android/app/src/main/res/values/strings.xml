@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">eyeOS</string>
+    <string name="title_activity_main">eyeOS</string>
+    <string name="package_name">com.eyeos.app</string>
+    <string name="custom_url_scheme">com.eyeos.app</string>
+</resources>
