@@ -1,4 +1,3 @@
-
 name: Android APK Build
 
 on:
@@ -43,7 +42,7 @@ jobs:
       run: cd android && ./gradlew assembleDebug
 
     - name: Upload APK Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  # ✅ FIXED version
       with:
         name: eyeos-debug-apk
         path: android/app/build/outputs/apk/debug/app-debug.apk
